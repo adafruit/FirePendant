@@ -11,8 +11,8 @@
 // This is NOT good "learn from" code for the IS31FL3731; it is "squeeze
 // every last byte from the Pro Trinket" code.  If you're starting out,
 // download the Adafruit_IS31FL3731 and Adafruit_GFX libraries, which
-// provide functions for drawing pixels, lines, etc.  It also uses some
-// ATmega-specific features and will not run as-is on other chips.
+// provide functions for drawing pixels, lines, etc.  This sketch also
+// uses some ATmega-specific tricks and will not run as-is on other chips.
 //--------------------------------------------------------------------------
 
 #include <Wire.h>           // For I2C communication
